@@ -22,6 +22,9 @@ ul, li {
 }
 a{
 	text-decoration: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
 }
 h2{
 	font-size: 1.6875rem;
@@ -171,6 +174,19 @@ h1::after{
 }
 .clients{
 	background-color: #efefef;
+	padding: 65px 0;
+}
+.clients_slider_item{
+	display: inline-block;
+	vertical-align: middle;
+}
+.bx-wrapper{
+	box-shadow: none !important;
+	border: none !important;
+	background: none !important;
+}
+.bx-next{
+	background: url('../images/arrow.png') no-repeat -43px -32px !important;
 }
 .portfolio{
 	background-color: white;
@@ -258,4 +274,151 @@ h1::after{
 	color: #eeeeee;
 	font-stretch: expanded;
 	line-height: 3rem;
+}
+.blog{
+	padding: 110px 0 65px;
+}
+.blog_post{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.blog_content{
+	width: 49.8%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding: 60px 30px;
+}
+.blog_image{
+	width: 49.8%;
+	display: inline-block;
+}
+.blog_date{
+	font-size: 0.875rem;
+}
+.blog_post_title{
+	font-size: 1.5rem;
+}
+.next_posts{
+	background-color: #efefef;
+	padding: 70px 0;
+}
+.tweets{
+	padding: 70px 0;
+	text-align: center;
+}
+.tweet{
+	padding: 0 140px;
+	line-height: 2rem;
+	font-size: 1.25rem;
+}
+.tweet::before{
+	content: "";
+	display: block;
+	height: 150px;
+	background: url('../images/tweets-foto1.png') no-repeat center;
+	margin: 0 auto;
+}
+.tweet::after{
+	content: "@loveless";
+	display: block;
+	margin: 0 auto;
+	font-family: SourceSansProBold, sans-serif;
+	font-size: 1rem;
+	line-height: 6rem;
+}
+footer{
+	background-color: #212121;
+	color: #999999;
+	padding: 50px 0 20px;
+}
+.form{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.send{
+	cursor: pointer;
+}
+.footer_menu_item{
+	width: 16%;
+	display: inline-block;
+	vertical-align: top;
+}
+.footer_menu_item_links{
+	font-size: 0.875rem;
+}
+.line{
+	height: 1px;
+	background-color: #474747;
+	width: 100%;
+}
+.copyright{
+	width: 49.5%;
+	float: left;
+	text-align: left;
+	padding: 5px 0 0;
+}
+.footer_text{
+	font-size: 0.875rem;
+	padding: 35px 120px 25px 0;
+}
+.terms{
+	width: 49.5%;
+	float: right;
+	text-align: right;
+	padding: 50px 0 0;
+}
+.terms_ul li{
+	display: inline-block;
+	font-size: 0.875rem;
+	padding-left: 20px;
+}
+.footer_logo{
+	font-family: SourceSansProBold, sans-serif;
+	font-size: 1.375rem;
+	color: #eeeeee;
+
+}
+form{
+	padding: 0 120px 10px 0;
+}
+input, textarea, button{
+	border: none;
+	background: transparent;
+	font-size: 0.875rem;
+	color: #999999;
+	outline: none;
+
+}
+input.email{
+	border-bottom: 1px #474747 solid;
+	width: 47%;
+	float: left;
+	margin: 10px 0;
+	line-height: 26px;
+}
+input.subject{
+	border-bottom: 1px #474747 solid;
+	width: 47%;
+	float: right;
+	margin: 10px 0;
+	line-height: 26px;
+}
+textarea.message{
+	border-bottom: 1px #474747 solid;
+	width: 100%;
+	resize: vertical;
+	margin: 10px 0 60px 0;
+	line-height: 9px;
+}
+.footer_menu_item_links li{
+	font-size: 0.875rem;
+}
+.footer_menu_item_links{
+	padding-top: 40px;
+}
+.footer_menu_item_title{
+	font-size: 0.9375rem;
+	font-family: SourceSansProBold, sans-serif;
 }

@@ -6,8 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="css/font-awesome.css" type="text/css" rel="stylesheet">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	<title>Unicorn</title>
 </head>
 <body>
@@ -18,10 +17,10 @@
 			</div>
 			<nav>
 				<ul class="menu">
-					<li>HOME</li>
-					<li>ABOUT</li>
-					<li>STORIES</li>
-					<li>HELLO</li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">STORIES</a></li>
+					<li><a href="#">HELLO</a></li>
 					<li><i class="fa fa-bars"></i></li>
 				</ul>
 			</nav>
@@ -84,15 +83,20 @@
 	<section class="clients">
 		<div class="container">
 			<h2 class="clients_title">Clients</h2>
-			<div class="owl-carousel">
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-			</div>
+			<ul class="clients_slider">
+				<li class="clients_slider_item"><img src="images/clients-1.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-2.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-3.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-4.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-5.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-6.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-7.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-8.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-9.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-10.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-11.png" /></li>
+				<li class="clients_slider_item"><img src="images/clients-12.png" /></li>
+			</ul>
 		</div>
 	</section>
 	<section class="portfolio">
@@ -185,7 +189,7 @@
 			<div class="blog_post">
 				<div class="blog_content">
 					<span class="blog_date">Travel / 21st March, 2014</span>
-					<span class="blog_post_title">A New Product Is Coming</span>
+					<h3 class="blog_post_title">A New Product Is Coming</h3>
 					<p class="text">
 						The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.
 					</p>
@@ -200,7 +204,7 @@
 				</div>
 				<div class="blog_content">
 					<span class="blog_date">Gadget / 3rd March, 2014</span>
-					<span class="blog_post_title">Jimmy's New Xbox Controller</span>
+					<h3 class="blog_post_title">Jimmy's New Xbox Controller</h3>
 					<p class="text">
 						The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.
 					</p>
@@ -209,7 +213,7 @@
 			<div class="blog_post">
 				<div class="blog_content">
 					<span class="blog_date">Travel / 21st March, 2014</span>
-					<span class="blog_post_title">A New Product Is Coming</span>
+					<h3 class="blog_post_title">A New Product Is Coming</h3>
 					<p class="text">
 						The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.
 					</p>
@@ -226,16 +230,12 @@
 				<div> Your Content </div>
 				<div> Your Content </div>
 				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
 			</div>
 		</div>
 	</section>
 	<section class="tweets">
 		<div class="container">
-			<i class="fa fa-twitter"></i>
+			<i class="fa fa-2x fa-twitter"></i>
 			<p class="tweet">
 				Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.
 			</p>
@@ -245,63 +245,63 @@
 		<div class="container">
 			<div class="form">
 				<a href="#" class="footer_logo">UNICORN</a>
-				<p class="text">
+				<p class="footer_text">
 					One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his
 				</p>
 				<form>
-					<input type="email" placeholder="EMAIL"/>
-					<input type="text" placeholder="SUBJECT"/>
-					<textarea placeholder="MESSAGE"></textarea>
-					<button type="submit">SEND<i class="fa fa-play"></i></button>
+					<input class="email" type="email" placeholder="EMAIL"/>
+					<input class="subject" type="text" placeholder="SUBJECT"/>
+					<textarea class="message" placeholder="MESSAGE"></textarea>
+					<button class="send" type="submit">SEND <i class="fa fa-play"></i></button>
 				</form>
 			</div>
 			<div class="footer_menu_item">
 				<span class="footer_menu_item_title">LINKS</span>
 				<ul class="footer_menu_item_links">
-					<li>Home</li>
-					<li>About</li>
-					<li>Services</li>
-					<li>Menu</li>
-					<li>Restaurants</li>
-					<li>Work Hours</li>
-					<li>Call Hours</li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Restaurants</a></li>
+					<li><a href="#">Work Hours</a></li>
+					<li><a href="#">Call Hours</a></li>
 				</ul>
 			</div>
 			<div class="footer_menu_item">
 				<span class="footer_menu_item_title">FRIENDS</span>
 				<ul class="footer_menu_item_links">
-					<li>Home</li>
-					<li>About</li>
-					<li>Services</li>
-					<li>Menu</li>
-					<li>Restaurants</li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Restaurants</a></li>
 				</ul>
 			</div>
 			<div class="footer_menu_item">
 				<span class="footer_menu_item_title">SOCIAL</span>
 				<ul class="footer_menu_item_links">
-					<li>Facebook</li>
-					<li>Twitter</li>
-					<li>Github</li>
-					<li>Pinterest</li>
-					<li>Google Plus</li>
-					<li>Dribbble</li>
-					<li>Flickr</li>
-					<li>Others</li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Github</a></li>
+					<li><a href="#">Pinterest</a></li>
+					<li><a href="#">Google Plus</a></li>
+					<li><a href="#">Dribbble</a></li>
+					<li><a href="#">Flickr</a></li>
+					<li><a href="#">Others</a></li>
 				</ul>
 			</div>
-			<hr />
+			<div class="line"></div>
 			<div class="copyright">
-				<p class="text">
-					One morning, when Gregor Samsa woke from troubled dreams, he found &copy; 2015 Your Awesome Company
+				<p class="footer_text">
+					One morning, when Gregor Samsa woke from troubled dreams, he found <br />&copy; 2015 Your Awesome Company
 				</p>
 			</div>
 			<div class="terms">
 				<ul class="terms_ul">
-					<li>TERMS</li>
-					<li>PRIVACY POLICY</li>
-					<li>CONTACT</li>
-					<li>JOB</li>
+					<li><a href="#">TERMS</a></li>
+					<li><a href="#">PRIVACY POLICY</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">JOB</a></li>
 				</ul>
 			</div>
 		</div>
@@ -309,6 +309,7 @@
 
 
 	<script src="js/jquery.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/js.js"></script>
 </body>
 </html>
