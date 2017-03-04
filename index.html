@@ -7,6 +7,8 @@
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="css/font-awesome.css" type="text/css" rel="stylesheet">
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="css/slick.css" rel="stylesheet" />
+	<link href="css/slick-theme.css" rel="stylesheet" />
 	<title>Unicorn</title>
 </head>
 <body>
@@ -69,59 +71,97 @@
 			<p class="text">
 				The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the
 			</p>
-			<div class="owl-carousel">
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
+			<div class="articles_slider_wrapper">
+				<div class="articles_slider_prev"></div>
+				<div class="articles_slider_next"></div>
+				<ul class="articles_slider">
+					<li class="articles_slider_item">
+						<span class="articles_filter">COMIC</span>
+						<p class="articles_text">A million ways to die in the wild wild wild west</p>
+						<div class="articles_info">
+							<img src="images/articles-foto1.png" />
+							<span class="articles_author">jimmy jefferson</span><br />
+							<span class="articles_date">21/08/2013</span>
+						</div>
+					</li>
+					<li class="articles_slider_item">
+						<span class="articles_filter">LIFESTYLE</span>
+						<p class="articles_text">The most comfortable chair comes with no backpain</p>
+						<div class="articles_info">
+							<img src="images/articles-foto1.png" />
+							<span class="articles_author">jimmy jefferson</span><br />
+							<span class="articles_date">21/08/2013</span>
+						</div>
+					</li>
+					<li class="articles_slider_item">
+						<span class="articles_filter">TRAVEL</span>
+						<p class="articles_text">Journey to the center of the earth with jefferson</p>
+						<div class="articles_info">
+							<img src="images/articles-foto2.png" />
+							<span class="articles_author">jimmy jefferson</span><br />
+							<span class="articles_date">21/08/2013</span>
+						</div>
+					</li>
+					<li class="articles_slider_item">
+						<span class="articles_filter">TRAVEL</span>
+						<p class="articles_text">A million ways to die in the wild wild wild west</p>
+						<div class="articles_info">
+							<img src="images/articles-foto3.png" />
+							<span class="articles_author">jimmy jefferson</span><br />
+							<span class="articles_date">21/08/2013</span>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
 	<section class="clients">
 		<div class="container">
 			<h2 class="clients_title">Clients</h2>
-			<ul class="clients_slider">
-				<li class="clients_slider_item"><img src="images/clients-1.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-2.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-3.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-4.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-5.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-6.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-7.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-8.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-9.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-10.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-11.png" /></li>
-				<li class="clients_slider_item"><img src="images/clients-12.png" /></li>
-			</ul>
+			<div class="clients_slider_wrapper">
+				<div class="clients_slider_next"></div>
+				<div class="clients_slider_prev"></div>
+				<ul class="clients_slider">
+					<li class="clients_slider_item"><img src="images/clients-1.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-2.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-3.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-4.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-5.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-6.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-7.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-8.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-9.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-10.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-11.png" /></li>
+					<li class="clients_slider_item"><img src="images/clients-12.png" /></li>
+				</ul>
+			</div>
+
 		</div>
 	</section>
 	<section class="portfolio">
-		<div class="container">
-			<h2 class="portfolio_title">Portfolio & Screenshots</h2>
-			<p class="text">
-				The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the
-			</p>
-			<ul>
-				<li>Art</li>
-				<li>Mystery</li>
-				<li>Illusion</li>
-				<li>Travel</li>
-				<li>Paintings</li>
+
+		<h2 class="portfolio_title">Portfolio & Screenshots</h2>
+		<p class="text">
+			The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the
+		</p>
+		<div class="portfolio_slider_wrapper">
+			<ul class="portfolio_filters">
+				<li class="portfolio_filters_item" data-filter="art">Art</li>
+				<li class="portfolio_filters_item" data-filter="mystery">Mystery</li>
+				<li class="portfolio_filters_item" data-filter="illusion">Illusion</li>
+				<li class="portfolio_filters_item" data-filter="travel">Travel</li>
+				<li class="portfolio_filters_item" data-filter="paintings">Paintings</li>
 			</ul>
-			<div class="owl-carousel">
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
-			</div>
+			<ul class="portfolio_slider">
+				<li data-filter="art"><img src="images/portfolio-im1.png" /></li>
+				<li data-filter="mystery"><img src="images/portfolio-im2.png" /></li>
+				<li data-filter="illusion"><img src="images/portfolio-im3.png" /></li>
+				<li data-filter="travel"><img src="images/portfolio-im4.png" /></li>
+				<li data-filter="paintings"><img src="images/portfolio-im2.png" /></li>
+			</ul>
 		</div>
+
 	</section>
 	<section class="quote">
 		<div class="container">
@@ -226,10 +266,27 @@
 	</section>
 	<section class="next_posts">
 		<div class="container">
-			<div class="owl-carousel">
-				<div> Your Content </div>
-				<div> Your Content </div>
-				<div> Your Content </div>
+			<div class="posts_slider_wrapper">
+				<div class="posts_slider_next"></div>
+				<div class="posts_slider_prev"></div>
+				<ul class="posts_slider">
+					<li class="posts_slider_item">
+						<h4 class="next_posts_title">Sarah’s New House</h4>
+						<span class="next_posts_info">Personal / 21st March, 2014</span>
+					</li>
+					<li class="posts_slider_item">
+						<h4 class="next_posts_title">Another Day In Paradise</h4>
+						<span class="next_posts_info">Travel / 21st March, 2014</span>
+					</li>
+					<li class="posts_slider_item">
+						<h4 class="next_posts_title">Jimmy’s New Book on Aliens</h4>
+						<span class="next_posts_info">Personal / 21st March, 2014</span>
+					</li>
+					<li class="posts_slider_item">
+						<h4 class="next_posts_title">Another Day In Paradise</h4>
+						<span class="next_posts_info">Travel / 21st March, 2014</span>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -310,6 +367,7 @@
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/js.js"></script>
 </body>
 </html>
