@@ -48,6 +48,9 @@ h3{
 .menu li:last-of-type{
 	margin-right: 0;
 }
+.menu_toggle{
+	display: none;
+}
 .container{
 	width: 97%;
 	max-width: 1170px;
@@ -59,7 +62,7 @@ header{
 	background: url('../images/header-bg.png') no-repeat center;
 	height: 1000px;
 	padding-top: 50px;
-	background-size: 100%; /*применяем для экранов шире ширины картинки*/
+	background-size: cover;
 }
 
 .logo{
@@ -77,6 +80,10 @@ header{
 nav{
 	display: inline-block;
 	float: right;
+}
+.header_toggle{
+	float: right;
+	display: none;
 }
 .header_content{
 	margin-left: 50%;
@@ -278,9 +285,6 @@ h1::after{
 	background-color: white;
 	padding: 100px 0;
 }
-.portfolio p{
-	padding: 10px 520px;
-}
 .portfolio_filters{
 	text-align: center;
 }
@@ -290,7 +294,7 @@ h1::after{
 	width: 75px;
 	height: 7px;
 	background-color: #e64a19;
-	margin: 35px auto 0;
+	margin: 20px auto 0;
 }
 .portfolio_filters_item{
 	display: inline-block;
@@ -310,7 +314,7 @@ h1::after{
 	font-style: italic;
 }
 .team{
-	padding: 120px 0;
+	padding: 100px 0;
 	background-color: white;
 }
 .team p{
@@ -334,7 +338,7 @@ h1::after{
 }
 .facts{
 	background: url('../images/facts-bg.png') no-repeat center;
-	background-size: 100%;
+	background-size: cover;
 	padding: 100px 0;
 }
 .facts_title{
@@ -394,6 +398,7 @@ h1::after{
 .blog_image{
 	width: 49.8%;
 	display: inline-block;
+	overflow: hidden;
 }
 .blog_date{
 	font-size: 0.875rem;
@@ -443,14 +448,12 @@ h1::after{
 	background: url('../images/tweets-foto1.png') no-repeat center;
 	margin: 0 auto;
 }
-.tweet::after{
-	content: "@loveless";
-	display: block;
+.tweet_link{
 	margin: 0 auto;
 	font-family: SourceSansProBold, sans-serif;
 	font-size: 1rem;
-	line-height: 6rem;
 }
+
 footer{
 	background-color: #212121;
 	color: #999999;
