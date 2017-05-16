@@ -1,2 +1,2 @@
-Пример верстки
+Пример верстки.
 Демо - https://kseniyamikhel.github.io/unicorn/
