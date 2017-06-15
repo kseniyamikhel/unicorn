@@ -6,7 +6,7 @@
 		background-size: 100%;
 	}
 }
-@media screen and (max-width: 1310px){
+/*@media screen and (max-width: 1320px){
 	.clients_slider_next,
 	.clients_slider_prev,
 	.articles_slider_prev,
@@ -15,7 +15,7 @@
 	.posts_slider_prev {
 		display: none;
 	}
-}
+}*/
 
 
 @media screen and (max-width: 1199px){
