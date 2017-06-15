@@ -59,3 +59,11 @@ $(document).ready(function(){
 		}
 	});
 });
+var bar = document.querySelector('.header_toggle');
+bar.addEventListener('click', toggleMenu);
+function toggleMenu (event){
+	var menu = document.querySelector('.menu_toggle');
+    menu.classList.toggle('menu_toggle__active');
+    bar.firstChild.classList.toggle('dis');
+    bar.lastChild.classList.toggle('dis');
+}

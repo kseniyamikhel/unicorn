@@ -51,6 +51,12 @@ h3{
 .menu_toggle{
 	display: none;
 }
+.menu_toggle__active{
+	display: block;
+}
+.dis{
+	display: none !important;
+}
 .container{
 	width: 97%;
 	max-width: 1170px;
